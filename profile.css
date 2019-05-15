@@ -1,0 +1,29 @@
+body{
+
+	margin:0;
+}
+.navbar{
+	background-color: #2b2e33;
+	height: 60px;
+
+}
+a{
+	border-top:  1px solid green;
+ 	border-right: 1px solid green;
+ 	border-bottom: 1px solid green;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 60px;
+	color: white;
+	padding-bottom: 20px;
+}
+a:hover{
+	text-transform: uppercase;
+	background: #2e5caa;
+	font-weight: bold;
+	font-family: cursive,sans-serif;
+}
+.navlist{
+	display: inline-flex;
+	list-style-type: none;
+}

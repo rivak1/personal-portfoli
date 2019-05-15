@@ -1,0 +1,256 @@
+#container{
+
+	width: 1050px;
+	margin: 0 auto;
+}
+
+ h1 a{
+
+ 	 font-size: 50px;
+ 	 font-weight: 100;
+ 	 color: #861BBB;
+ 	 text-decoration: none;
+ }
+
+ #Header
+ {
+ 	height: 100px;
+ 	padding: 10px 0;
+ }
+
+ #Brand
+ {
+
+ 	float: left;
+ }
+ #Searchbar{
+ 	background: linear-gradient(#E4F2B9,#B7E953);
+ 	float: right;
+ 	width: 400px;
+ 	height: 50px;
+ 	padding:  20px 20px 0 20px;
+ 	margin-top: 20px;
+
+ }
+ .Tex{
+ 	float: left;
+ 	width: 200px;
+ 	padding: 5px;
+ 	font-size: 15px;
+ 	color: green;
+ 	background: white url(image/search.png) right center no-repeat;
+ }
+
+ .Submit{
+ 	float: right;
+ 	padding: 5px;
+ 	font-weight: bold;
+ 	color: white;
+ 	background: #A751D6;
+ 	font-size: 15px;
+ }
+ .clear{
+ 	clear: both;
+ }
+ #menu{
+ 	height: 50px;
+ 	background: linear-gradient(#F8F594,#D5D533);
+ 	padding: 7px 0;
+ }
+ ul{
+ 	list-style: none;
+ }
+ #menu ul li{
+
+ 	float: left;
+ 	padding: 0 20px;
+ 	height: 30px;
+ 	border-top:  1px solid green;
+ 	border-right: 1px solid green;
+ 	border-bottom: 1px solid green;
+ 	border-left: 1px solid green;
+ 	 }
+ #menu ul li a{
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ 	font-size: 20px;
+ 	color: green;
+ 	line-height: 30px;
+ 	3.1-webkit-transition: font-size 1s linear; 
+ 	-moz-transition: font-size 1s linear; 
+ 	-o-transition: font-size 1s linear; 
+ 	-ms-transition: font-size 1s linear; 
+ 	transition: font-size 1s linear; 
+ }
+ #menu ul li:last-child{
+ 	border-right: none;
+ }
+  #menu ul li a:hover ,#menu ul li a.active{ 
+ 	font-size: 20px;
+ 	font-weight: bold;
+ 	color: white;
+ 	display: inline-block;
+ 	background-color: seagreen;
+ }
+ .frame
+ {
+ 	margin-top: 40px;
+ 	background: linear-gradient(#F8F594,#D5D533); 
+ }
+ h1:hover
+ {
+ 	font-size: 30px;
+ 	font-weight: bold;
+ 	color: white;
+ 	display: inline-block;
+ 	background-color: seagreen;
+ }
+ #introduction{
+ 	background: linear-gradient(#E5F2BB,#B7E952);
+ 	padding: 30px;
+ 	margin: 16px 0;
+ 	font-weight: normal;
+
+ }
+
+ #introduction h3{
+
+ 	font-size: 45px;
+ 	color: #628F18;
+ }
+ #introduction p{
+ 	font-size: 25px;
+ 	color: #628F19;
+ }
+ .sidebar{
+ 	height:650px;
+ 	width: 400px;
+ 	border: 2px solid #628F19;
+ 	border-radius: 20px;
+ }
+ .sidebar1{
+ 	height:400px;
+ 	width: 1050px;
+ 	border: 1px solid grey;
+ 	border-radius: 10px;
+ 	margin: 40px 0;
+ 	background: white url("image/upsc.jpg") center no-repeat;
+
+ }
+ .sidebar h3{
+
+ 	color: #B314DB;
+ 	font-size: 30px;
+ }
+ .sidebar ul li a{
+ 	text-decoration: none;
+ 	font-size: 20px;
+ 	color: #5d12e7;
+ }
+ .sidebar ul li a:hover,.sidebar ul li a.active{
+ 	font-size: 24px;
+ 	text-decoration: none;
+ 	color: #B314DB;
+ 	font-weight: bold;
+
+ }
+ .sidebar li{
+ 	padding: 10px 10px;
+ }
+ #upscimformation
+ {
+ 	height:4050px;
+ 	width: 1050px;
+ 	border: 1px solid grey;
+ 	border-radius: 10px;
+ 	margin: 40px 0;
+ }
+
+ #upscwiki{
+ 	height: 230px;
+ 	width: 1000px;
+ 	margin: 40px 23px;
+ }
+ #upscwiki h1{
+ 	color: green;
+ 	margin-left: 20px;
+ }
+ #upscwiki p{
+ 	color: green;
+ 	margin-left: 20px;
+ }
+ 
+
+ #upscwiki h1:hover{
+ 	font-size: 30px;
+ 	font-weight: bold;
+ 	color: white;
+ 	display: inline-block;
+ 	background-color: seagreen;
+ }
+ #leftsidebar{
+ 	float: left;
+ }
+ #leftsidebar ul li{
+ 	padding-bottom: 6px;
+ 	padding-left: 10px;
+ 	list-style-image: url(image/arrow.png);
+ }
+ #rightside ul li{
+ 	padding-bottom: 6px;
+ 	padding-left: 70px; 
+ 	padding-top: 15px;
+ 	background:  url(image/tick.png) no-repeat left center;
+ }
+ #rightside
+ {
+ 	float: right;
+ }
+ .civil
+ {
+ 	height:1000px;
+ 	width: 1000px;
+ 	border: 2px solid #628F19;
+ 	padding: 10px 10px;
+ }
+ #ias{
+ 	margin:50px 10px;
+ 	height: 300px;
+ 	width:300px;
+ 	border:2px solid green;
+ 	background: white url("image/ias-1.png") no-repeat;
+ }
+ #ips{
+ 	margin:50px 10px;
+ 	height: 300px;
+ 	width:300px;
+ 	border:2px solid green;
+ 	background: white url("image/ips.jpg") no-repeat;
+ 	background-size: 300px 300px;
+ }
+ #ifs{
+ 	margin:50px 10px;
+ 	height: 300px;
+ 	width:300px;
+ 	border:2px solid green;
+ 	background: white url("image/ifs.png") no-repeat;
+ }
+ #iasinfo{
+ 	width: 662px;
+ 	height: 800px;
+ 	border:2px solid green;
+ 	margin-left: 330px;
+ 	margin-top: -380px;
+ }
+ #ipsinfo{
+ 	width: 662px;
+ 	height: 800px;
+ 	border:2px solid green;
+ 	margin-left: 330px;
+ 	margin-top: 0px;
+ }
+ .footer{
+ 	height: 60px;
+ 	background: linear-gradient(#F6F390, #D5D533);
+ 	padding:10px 30px;
+ }

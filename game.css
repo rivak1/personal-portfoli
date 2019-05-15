@@ -1,0 +1,148 @@
+html{
+	height: 100%;
+	background: radial-gradient(circle,#fff,#ccc);
+}
+h1{
+	color: green;
+}
+#container2{
+
+
+	height: 500px;
+	width:650px;
+	background-color: #9DD2EA;
+	margin: 100px auto;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 4px 4px 4px 4px #009de4;
+
+}
+
+#score{
+
+	background-color: #F1FF92;
+	color: #888E5F;
+	padding: 11px;
+	position: absolute;
+	left: 790px;
+	box-shadow: 0px 4px 0px #9da853;
+}
+
+#Correct{
+position: absolute;
+left: 500px;
+background-color: #42e252;
+color: white;
+padding-bottom: 20px;
+padding-top: 20px;
+padding-right: 60px;
+padding-left: 20px;
+display: none;
+
+}
+
+#Wrong{
+
+position: absolute;
+left: 500px;
+background-color: #42e252;
+color: white;
+padding-bottom: 20px;
+padding-top: 20px;
+padding-right: 60px;
+padding-left: 20px;
+display: none;
+}
+#Questionbox
+{
+width: 450px;
+height: 200px;
+margin:100px auto 10px auto;
+background-color: #9DA0EA;
+box-shadow: 4px 4px #535aa8;
+font-size: 100px;
+text-align: center;
+font-family: cursive,sans-serif;	
+color: black;
+}
+#instruction{
+width: 450px;
+height: 50px;
+background-color: #B481D9;
+margin: 10px auto;
+text-align: center;
+font-family: cursive,sans-serif;
+line-height: 45px;
+box-shadow: 4px 4px #8153a8;
+}
+#Choice{
+
+	height: 100px;
+	width: 450px; 
+	margin: 5px auto;
+}
+
+.box{
+
+	width: 85px;
+	height: 85px;
+	background-color: white;
+	float: left;
+	margin-right: 36px;
+	border-radius: 3px;
+	cursor: pointer;
+	box-shadow: 0px 4px rgba(0,0,0,0.2);
+	text-align: center;
+	line-height: 80px;
+	position: relative;
+	-webkit-transition: all 0.2s;
+}
+.box:hover, #startreset:hover{
+	background-color: #9C89F6;
+	color: white; 
+	box-shadow: 0px 4px #6b54d3;
+}
+
+.box:active ,#startreset:active{
+	box-shadow: 0px 0px #6b54d3;
+	top:4px;
+}
+
+#Choice4{
+	margin-right: 0px;
+}
+#startreset{
+
+width: 78px;
+padding: 10px;
+background-color: rgba(255,255,255,0.5);
+margin: 0 auto;
+border-radius: 3px;
+cursor: pointer;
+box-shadow: 0px 4px rgba(0,0,0,0.2);
+
+}
+#Timeremaining{
+	width: 152px;
+	padding: 10px;
+	position: absolute;
+	top:785px;
+	left: 760px;
+	background-color: rgba(181,235,36,0.8);
+	border-radius: 4px;
+	box-shadow: 0px 4px rgba(0,0,0,0.2);
+	/*visibility: hidden;*/
+	display: none;
+ }
+ #gameover{
+ 	height: 300px;
+ 	width: 700px;
+ 	background: linear-gradient(#F3CA6B,#F3706C);
+ 	color: white;
+ 	font-size: 50px;
+ 	text-align: center;
+ 	position: absolute;
+ 	top: 400px;
+ 	left: 250px;
+ 	display: none;
+ }
